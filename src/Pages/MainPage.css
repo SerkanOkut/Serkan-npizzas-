@@ -1,0 +1,26 @@
+.Main-Page{background-image: url("Serkan-npizzas-/images/iteration-1-images/home-banner.png");
+    display: flex;
+    height: 89vh;
+    align-items: center;
+    justify-content: center;   
+} 
+.Main-Items {
+    display: flex
+;
+    height: 300px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+h1{
+    
+    color: #FDC913;
+}
+.btn{
+    background-color: #FDC913;
+    color: #CE2829;
+    width: 150px;
+    height: 60px;
+    border-radius: 20px;
+    font-size: 24px;
+}

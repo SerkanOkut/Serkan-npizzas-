@@ -1,0 +1,134 @@
+
+.secim-sayfasi {
+    max-width: 600px;
+    margin: 20px auto;
+    font-family: "Quattrocento", serif;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .secim-sayfasi h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .secim-sayfasi p {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  
+
+  .form-grubu {
+    margin-bottom: 20px;
+  }
+  
+  .form-grubu label {
+    margin-bottom: 8px;
+    display: block;
+  }
+  
+
+  .dikey-secim {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .dikey-secim label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+
+  .checkbox {
+    display: flex;
+   flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .checkbox label {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+  .boyut-ve-hamur {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+  textarea,
+  select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+  }
+  
+  
+  .adet-grubu {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .adet-grubu button {
+    width: 30px;
+    height: 30px;
+    background-color: #ffcc00;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .adet-grubu button:hover {
+    background-color: #ffaa00;
+  }
+  
+  .adet-grubu span {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  
+  .hata {
+    color: red;
+    font-weight: bold;
+    margin-top: -10px;
+    margin-bottom: 10px;
+  }
+  
+  
+  .ozet p {
+    font-size: 16px;
+    color: #333;
+    margin: 5px 0;
+  }
+  
+  .btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #ffcc00;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #333;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #ffaa00;
+  }
+  

@@ -1,134 +1,224 @@
-
 .secim-sayfasi {
     max-width: 600px;
     margin: 20px auto;
     font-family: "Quattrocento", serif;
     padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 8px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    background-color: #fff;
-  }
-  
-  .secim-sayfasi h1 {
+    background-color: #FAF7F2;
+}
+
+.secim-sayfasi h1 {
     font-size: 24px;
     color: #333;
     margin-bottom: 10px;
-  }
-  
-  .secim-sayfasi p {
-    color: #666;
+}
+
+.secim-sayfasi p {
+    color: #5F5F5F;
     font-size: 14px;
     margin-bottom: 20px;
-  }
-  
+}
 
-  .form-grubu {
+.form-grubu {
     margin-bottom: 20px;
-  }
-  
-  .form-grubu label {
+}
+
+.form-grubu label {
     margin-bottom: 8px;
     display: block;
-  }
-  
+}
 
-  .dikey-secim {
+.dikey-secim {
     display: flex;
     flex-direction: column;
     gap: 15px;
-  }
-  
-  .dikey-secim label {
+}
+
+.dikey-secim label {
     display: flex;
     align-items: center;
     gap: 5px;
-  }
-  
+}
 
-  .checkbox {
+.checkbox {
     display: flex;
-   flex-wrap: wrap;
+    flex-wrap: wrap;
     gap: 10px;
-  }
-  
-  .checkbox label {
+}
+
+.checkbox label {
     width: 30%;
     display: flex;
     align-items: center;
     gap: 5px;
 }
-  .boyut-ve-hamur {
+
+.boyut-ve-hamur {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
 }
-  textarea,
-  select {
+
+textarea,
+select {
     width: 100%;
     padding: 10px;
-    border: 1px solid #ddd;
+    border: 1px solid #5F5F5F;
     border-radius: 4px;
-    background-color: #f9f9f9;
-  }
-  
-  
-  .adet-grubu {
+    background-color: #FAF7F2;
+}
+
+.adet-grubu {
     display: flex;
     align-items: center;
     gap: 10px;
-  }
-  
-  .adet-grubu button {
+}
+
+.adet-grubu button {
     width: 30px;
     height: 30px;
-    background-color: #ffcc00;
+    background-color: #FDC913;
     border: none;
     border-radius: 4px;
     font-weight: bold;
     cursor: pointer;
     text-align: center;
-  }
-  
-  .adet-grubu button:hover {
-    background-color: #ffaa00;
-  }
-  
-  .adet-grubu span {
+}
+
+.adet-grubu button:hover {
+    background-color: #FDC913;
+}
+
+.adet-grubu span {
     font-size: 18px;
     font-weight: bold;
-  }
-  
-  
-  .hata {
-    color: red;
+}
+
+.hata {
+    color: #CE2829;
     font-weight: bold;
     margin-top: -10px;
     margin-bottom: 10px;
-  }
-  
-  
-  .ozet p {
-    font-size: 16px;
-    color: #333;
+}
+
+.siparis-toplam {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-top: 1px solid #5F5F5F;
+    margin-top: 20px;
+}
+
+.adet-kontrol {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.adet-kontrol button {
+    width: 40px;
+    height: 40px;
+    background-color: #FDC913;
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.adet-kontrol span {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.toplam-ozet {
+    text-align: right;
+}
+
+.toplam-ozet p {
     margin: 5px 0;
-  }
-  
-  .btn {
+    font-size: 16px;
+}
+
+.toplam-ozet .fiyatlar p {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+}
+
+.btn {
     display: block;
     width: 100%;
+    max-width: 200px;
+    margin-top: 10px;
     padding: 10px;
-    background-color: #ffcc00;
+    background-color: #FDC913;
     border: none;
-    border-radius: 4px;
-    font-weight: bold;
-    font-size: 16px;
     color: #333;
+    font-size: 16px;
+    font-weight: bold;
     text-align: center;
+    border-radius: 5px;
     cursor: pointer;
-  }
-  
-  .btn:hover {
-    background-color: #ffaa00;
-  }
-  
+}
+
+.btn:hover {
+    background-color: #FDC913;
+}
+
+@media (max-width: 768px) {
+    .secim-sayfasi {
+        max-width: 100%;
+        margin: 10px;
+        padding: 15px;
+    }
+
+    .boyut-ve-hamur {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+
+    .checkbox label {
+        width: 45%;
+    }
+
+    .btn {
+        width: 100%;
+        max-width: none;
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .adet-kontrol button {
+        width: 35px;
+        height: 35px;
+        font-size: 18px;
+    }
+
+    .adet-kontrol span {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .checkbox label {
+        width: 100%;
+    }
+
+    .btn {
+        font-size: 14px;
+        padding: 6px;
+    }
+
+    .adet-kontrol button {
+        width: 30px;
+        height: 30px;
+        font-size: 16px;
+    }
+
+    .adet-kontrol span {
+        font-size: 14px;
+    }
+}

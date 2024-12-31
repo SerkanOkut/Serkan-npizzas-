@@ -1,26 +1,49 @@
-.Main-Page{background-image: url("Serkan-npizzas-/images/iteration-1-images/home-banner.png");
+.Main-Page {
+    background-image: url("Serkan-npizzas-/images/iteration-1-images/home-banner.png");
     display: flex;
     height: 89vh;
     align-items: center;
-    justify-content: center;   
-} 
-.Main-Items {
-    display: flex
-;
-    height: 300px;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .Main-Items {
+    display: flex;
+    height: auto;
     align-items: center;
     flex-direction: column;
     justify-content: space-evenly;
-}
-h1{
-    
+    padding: 20px;
+  }
+  
+  h1 {
     color: #FDC913;
-}
-.btn{
+    font-size: clamp(1.5rem, 4vw, 3rem);
+    text-align: center;
+  }
+  
+  .btn {
     background-color: #FDC913;
     color: #CE2829;
     width: 150px;
     height: 60px;
     border-radius: 20px;
     font-size: 24px;
-}
+    cursor: pointer;
+    border: none;
+    text-align: center;
+  }
+  
+  @media (max-width: 768px) {
+    .Main-Page {
+      height: 100vh;
+    }
+  
+    .btn {
+      width: 120px;
+      height: 50px;
+      font-size: 20px;
+    }
+  }
+  

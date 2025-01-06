@@ -16,5 +16,5 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
-    font-family: "Quattrocento", serif;
+    font-family: "Quattrocento", sans-serif;
 }

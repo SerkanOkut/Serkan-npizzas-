@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import MainPage from './Pages/MainPage';
 import SelectionPage from './Pages/SelectionPage';
+import Footer from './Pages/Footer';
 
 function App() {
   const [currentPage, setCurrentPage] = useState("Home");
@@ -16,6 +17,7 @@ function Header (){
     <>
      <Header/>
      <MainPage/>
+     <Footer />
     </>
   )
 }

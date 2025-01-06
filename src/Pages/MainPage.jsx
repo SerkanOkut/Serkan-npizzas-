@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./MainPage.css";
 import SelectionPage from "./SelectionPage";
+import Menu from "./Menu";
 
 export default function MainPage() {
   const [handleRoute, setHandleRoute] = useState(false);
@@ -25,6 +26,7 @@ export default function MainPage() {
         </div>
         </div>
       )}
+      <Menu />
     </div>
   );
 }

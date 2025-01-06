@@ -1,5 +1,5 @@
 import React from "react";
-import "./FinishingPage.css"; // Stil dosyasını dahil ediyoruz
+import "./FinishingPage.css"; 
 
 export default function FinishingPage() {
   return (
